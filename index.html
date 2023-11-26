@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Url-shortner</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background-clip">
+      <video autoplay loop muted plays-inline>
+        <source src="./back.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="container">
+      <h1 for="url">URL SHORTNER</h1>
+      <h3>
+        Generates a short url and redirect to that application when click
+        on the short Url
+      </h3>
+      <input type="text" id="url" placeholder="Enter Your Url" />
+      <button onclick="shortURL()" id="btn">Short Url</button>
+      <div id="result"></div>
+    </div>
+
+    <script src="Script.js"></script>
+  </body>
+</html>
